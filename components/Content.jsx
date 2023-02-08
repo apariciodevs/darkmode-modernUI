@@ -10,7 +10,7 @@ const Content = () => {
 
         <div className="flex flex-col items-center max-w-xl text-center md:items-start md:text-left">
           <h1 className="mb-10 text-4xl font-semibold md:text-5xl ">
-            High speed transactions, everywhere and{" "}
+            High speed transactions, anytime and{" "}
             <span className="leading-snug underline underline-offset-4 lg:underline-offset-8 decoration-neutral-50 dark:decoration-rose-300">
               anywhere
             </span>
