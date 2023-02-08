@@ -1,11 +1,11 @@
 import Navbar from "./Navbar";
 
-
 const Layout = ({ children }) => {
-    return ( <body className="bgImage h-screen">
-    <Navbar/>
-          <div >{children}</div>
-    </body> );
-}
- 
+  return (
+    <div className="h-screen bgImage">
+      {children}
+    </div>
+  );
+};
+
 export default Layout;

@@ -1,13 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
+import { Inter, Poppins } from "@next/font/google";
 
-
-
-const inter = Inter({ subsets: ["latin"] });
+import Content from "@/components/Content";
+import Navbar from "@/components/Navbar";
+const poppins = Poppins({ subsets: ["latin"], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] });
 
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -16,8 +15,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-      
+      <main className={poppins.className}>
+        <Navbar/>
+        <Content />
+        
       </main>
     </>
   );
