@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bgImage {
-    background-image: url('../public/bbblurryDark.svg');
+    background-image: url('../public/space.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
