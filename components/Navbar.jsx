@@ -21,7 +21,7 @@ export default function Navbar() {
     return(
          <nav className="flex items-center justify-between h-16 px-12">
 
-          <h1 className="text-xl ">WalleConnect</h1>
+          <h1 className="text-xl font-semibold cursor-pointer">Silk Network</h1>
           {currentTheme === "dark" ? (
             <button
               className="flex flex-col items-center px-8 py-2 transition duration-300 border-2 shadow-md border-neutral-300 bg-black-700 hover:bg-neutral-800/80 hover:border-neutral-800 rounded-xl "
