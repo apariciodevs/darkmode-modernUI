@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import SignIn from "./SignIn";
+
 import { BsStars } from "react-icons/bs";
 
 const Content = () => {
@@ -15,15 +17,13 @@ const Content = () => {
               anywhere
             </span>
           </h1>
-          <p className="p-4 font-medium leading-6 dark:bg-gray-900/70 bg-gray-200/80 text-md md:text-xl rounded-3xl">
+          <p className="max-w-md p-4 font-medium leading-6 dark:bg-gray-900/70 bg-gray-200/80 text-md md:text-xl rounded-3xl">
             Make and receive payments anywhere on earth with our lightning
             network. Now supporting transactions on
             <span> Solana</span> and <span>Ethereum.</span>
           </p>
-          <div className="flex gap-2 mt-12">
-            <button className="px-6 py-2 tracking-tight transition duration-300 dark:bg-neutral-400/40 rounded-2xl text-neutral-50 bg-neutral-900 hover:bg-neutral-800/80 dark:hover:bg-neutral-800/80">
-              Get started
-            </button>
+          <div className="flex gap-2 mt-8">
+            <SignIn />
             <button className="px-4 py-2 font-semibold tracking-tight hover:underline underline-offset-4 text-neutral-50">
               Learn more
             </button>

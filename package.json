@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@moralisweb3/next": "^2.14.1",
     "@next/font": "^13.1.6",
-    "next": "13.1.6",
+    "ethers": "^5.7.2",
+    "moralis": "^2.14.1",
+    "next": "^13.1.6",
+    "next-auth": "^4.19.2",
     "next-themes": "^0.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "wagmi": "^0.11.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
